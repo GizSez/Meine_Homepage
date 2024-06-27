@@ -1,0 +1,72 @@
+/* Allgemeine Styles */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Schriftart */
+    margin: 0;
+    padding: 0;
+    background-color: #BEBEBE; /* Hintergrundfarbe */
+}
+
+.container {
+    width: calc(100% - 4cm); /* 2cm Abstand links und rechts */
+    margin: 0 auto; /* Zentrierung des Inhalts */
+    background-color: #F0F0F0; /* Hellgraues Hintergrund */
+    padding: 20px; /* Innenabstand innerhalb des Containers */
+}
+
+header {
+    background-color: #333; /* Hintergrundfarbe des Menübands */
+    padding: 15px 0; /* Innenabstand oben und unten */
+    border: 4px solid #555; /* Rahmen um das Menüband */
+}
+
+.menu {
+    text-align: center; /* Zentrierte Ausrichtung des Menüs */
+}
+
+.menu-row {
+    margin-bottom: 10px; /* Abstand zwischen den Zeilen */
+}
+
+.menu ul {
+    list-style-type: none; /* Listenpunkte entfernen */
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block; /* Elemente in einer Linie anordnen */
+    margin-right: 20px; /* Abstand zwischen den Menüpunkten */
+}
+
+.menu ul li a {
+    color: #fff; /* Textfarbe der Menüpunkte */
+    text-decoration: none; /* Unterstreichung entfernen */
+    padding: 10px; /* Innenabstand der Menüpunkte */
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Hintergrundfarbe beim Hover-Effekt */
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Horizontal zentriert */
+    align-items: center; /* Vertikal zentriert */
+    height: 100vh; /* Vollständige Höhe des Viewports nutzen */
+}
+
+.video-container {
+    position: relative;
+    width: 80%; /* Breite des Containers anpassen */
+    max-width: 800px; /* Maximale Breite des Videos */
+    text-align: center; /* Zentrierung des Inhalts */
+}
+
+.video-container iframe {
+    width: 100%; /* Vollständige Breite des Videos */
+    height: auto; /* Automatische Höhe des Videos */
+}
+
+.center-title{
+    text-align: center;
+}
