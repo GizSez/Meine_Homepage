@@ -11,7 +11,11 @@ body {
     margin: 0 auto; /* Zentrierung des Inhalts */
     background-color: #F0F0F0; /* Hellgraues Hintergrund */
     padding: 20px; /* Innenabstand innerhalb des Containers */
+    border-left: 2cm solid #e0e0e0; /* Randfarbe links */
+    border-right: 2cm solid #e0e0e0; /* Randfarbe rechts */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Schatten für bessere Sichtbarkeit */
 }
+
 
 header {
     background-color: #333; /* Hintergrundfarbe des Menübands */
